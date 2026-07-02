@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from "./pages/home.jsx"; // Note: Make sure home.jsx is inside a "pages" folder!
-import "./Home.css"; 
-import Header from "./header.jsx";
+import "./styles/home.css"; 
+import Header from "./components/header.jsx";
 
 // --- SIMPLE FILLER PAGES ---
 const fillerStyle = { padding: "100px 20px", textAlign: "center", minHeight: "60vh" };
@@ -18,23 +18,25 @@ const Contact = () => <div style={fillerStyle}><h1>Let's Talk (Contact Page)</h1
 // --- THE APP ROUTER ---
 function App() {
   return (
-    <BrowserRouter>
-      <Header /> 
-      <main>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/experience" element={<Experience />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/skills" element={<Skills />} />
-          <Route path="/leadership" element={<Leadership />} />
-          <Route path="/resume" element={<Resume />} />
-          <Route path="/contact" element={<Contact />} />
-          
-          <Route path="*" element={<div style={fillerStyle}><h1>404 - Page Not Found</h1></div>} />
-        </Routes>
-      </main>
-    </BrowserRouter>
+    <div className="bg-base-100 min-h-screen">
+        <BrowserRouter>
+        <Header /> 
+        <main>
+            <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/experience" element={<Experience />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/skills" element={<Skills />} />
+            <Route path="/leadership" element={<Leadership />} />
+            <Route path="/resume" element={<Resume />} />
+            <Route path="/contact" element={<Contact />} />
+            
+            <Route path="*" element={<div style={fillerStyle}><h1>404 - Page Not Found</h1></div>} />
+            </Routes>
+        </main>
+        </BrowserRouter>
+    </div>
   ); 
 }
 
