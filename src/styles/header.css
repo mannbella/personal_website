@@ -31,7 +31,7 @@
 
 .nav-links a.active, 
 .nav-links a:hover {
-  color: #c48c5b; 
+  color: #4b9c43; 
 }
 
 .header-actions {
@@ -52,7 +52,7 @@
 }
 
 .btn-lets-talk {
-  background-color: #c48c5b;
+  background-color: #4b9c43;
   color: white;
   text-decoration: none;
   padding: 10px 24px;
@@ -63,5 +63,5 @@
 }
 
 .btn-lets-talk:hover {
-  background-color: #b07c4e;
+  background-color: #367a30;
 }

@@ -1,7 +1,6 @@
 import React from "react";
 import "../styles/home.css"; 
 import Emailer from "../components/emailer.jsx";
-
 import profilePic from "../assets/headshot.png";
 
 function Home() {
@@ -19,9 +18,7 @@ function Home() {
             Isabella Mann
           </h1>
 
-          <p className="subtitle">
-            • Computer Science Graduate • Software Engineer •
-          </p>
+          <p className="subtitle">• Computer Science Graduate • Software Engineer •</p>
 
           <div className="badges">
             <span className="badge">Meta • QA Engineer</span>
@@ -32,7 +29,12 @@ function Home() {
           </div>
 
           <div className="actions">
-            <button className="btn primary">Download Resume</button>
+            <a 
+              href="src\assets\IsabellaMann_Resume.pdf"
+              download="IsabellaMann_Resume.pdf"
+              className="btn primary">
+              Download Resume
+              </a>
             <a 
               href="https://github.com/mannbella" 
               className="btn" 

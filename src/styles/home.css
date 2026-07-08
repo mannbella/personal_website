@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
 
-/* Main Layout Container */
 .headshot-container {
   display: flex !important;
   flex-direction: row;
@@ -15,7 +14,6 @@
   min-height: 100vh;
 }
 
-/* Left Column */
 .headshot-content {
   flex: 1;
   max-width: 600px;
@@ -29,7 +27,7 @@
   font-size: 0.8rem;
   font-weight: 600;
   letter-spacing: 1px;
-  color: #c48c5b;
+  color: #4b9c43;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -39,7 +37,7 @@
 .status-tag .line {
   width: 30px;
   height: 2px;
-  background-color: #c48c5b;
+  background-color: #4b9c43;
 }
 
 .headshot-content h1 {
@@ -50,9 +48,8 @@
   color: #1a1a1a;
 }
 
-/* Added the styling back for the underline effect on your name */
 .headshot-content h1 span {
-  border-bottom: 4px solid #c48c5b;
+  border-bottom: 4px solid #4b9c43;
   display: inline-block;
   line-height: 0.9;
 }
@@ -73,7 +70,7 @@
 
 .badge {
   padding: 6px 14px;
-  border: 1px solid #ddd;
+  border: 1px solid #4b9c43;
   border-radius: 20px;
   font-size: 0.85rem;
   color: #555;
@@ -95,7 +92,7 @@
   display: flex;
   align-items: center;
   gap: 8px;
-  border: 1px solid #ddd;
+  border: 1px solid #4b9c43;
   background: white;
   color: #333;
   transition: all 0.2s;
@@ -107,13 +104,13 @@
 }
 
 .btn.primary {
-  background-color: #c48c5b;
+  background-color: #4b9c43;
   color: white;
   border: none;
 }
 
 .btn.primary:hover {
-  background-color: #b07c4e;
+  background-color: #367a30;
 }
 
 .headshot-image-wrapper {
@@ -171,4 +168,19 @@
 .floating-card strong {
   font-size: 1.2rem;
   color: #1a1a1a;
+}
+
+.timeline-box {
+    border-radius: 12px;
+    padding: 1.5rem;
+    border: 1px solid var(--fallback-bc, oklch(var(--bc)/0.1));
+}
+
+.timeline hr {
+    background-color: var(--fallback-bc, oklch(var(--bc)/0.2));
+    height:2px;
+}
+
+.timeline-middle {
+  flex-shrink: 0;
 }

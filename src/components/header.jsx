@@ -5,17 +5,15 @@ import "../styles/header.css";
 const Header = () => {
     return (
         <header className="main-header">
-            <div className="logo-container">
+            <div className="logo-container px-8">
                 <Link to="/" className="logo-text">Isabella Mann</Link>
             </div>
         
             <nav className="nav-links">
                 <Link to="/about">About</Link>
                 <NavLink to="/experience">Experience</NavLink>
-                <NavLink to="/projects">Projects</NavLink>
-                <NavLink to="/skills">Skills</NavLink>
-                <NavLink to="/leadership">Leadership</NavLink>
                 <NavLink to="/resume">Resume</NavLink>
+                <NavLink to="/contact">Contact</NavLink>
             </nav>
 
             {/* <label className="swap swap-rotate">
