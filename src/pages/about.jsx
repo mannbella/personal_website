@@ -1,5 +1,4 @@
 import "../styles/home.css"; 
-import Header from "../components/header.jsx"
 import photo from "../assets/headshot.png"
 import grad from "../assets/grad.JPEG"
 import aoii from "../assets/aoii.JPEG"

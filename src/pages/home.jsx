@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/home.css"; 
-import Emailer from "../components/emailer.jsx";
 import profilePic from "../assets/headshot.png";
 
 function Home() {
@@ -73,10 +72,6 @@ function Home() {
           </div>
         </div>
       </section>
-      
-      <div className="flex flex-col mt-20">
-        <Emailer />
-      </div>
     </> 
   );
 }
