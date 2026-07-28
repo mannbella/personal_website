@@ -184,3 +184,31 @@
 .timeline-middle {
   flex-shrink: 0;
 }
+
+@keyframes woosh-in {
+  0% {
+    transform: translateX(-150px) skewX(-25deg);
+    opacity: 0;
+    filter: blur(12px);
+  }
+  100% {
+    transform: translateX(0) skewX(0);
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+.animate-woosh {
+  display: inline-block;
+  animation: woosh-in 0.6s cubic-bezier(0.1, 0.9, 0.2, 1) forwards;
+}
+
+.hover-woosh {
+  display: inline-block;
+  transition: all 0.2s cubic-bezier(0.1, 0.9, 0.2, 1); 
+}
+
+.hover-woosh:hover {
+  transform: translateX(15px) skewX(-15deg); 
+  filter: blur(1px); 
+}

@@ -4,7 +4,7 @@ import "../styles/header.css";
 
 const Header = () => {
     return (
-        <header className="main-header">
+        <header className="flex items-center justify-between w-full px-4">
             <div className="logo-container px-8">
                 <Link to="/" className="logo-text">Isabella Mann</Link>
             </div>
