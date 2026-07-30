@@ -1,13 +1,15 @@
 import "../styles/home.css"; 
 import photo from "../assets/headshot.png"
-import grad from "../assets/grad.JPEG"
-import aoii from "../assets/aoii.JPEG"
-import hiking from "../assets/hiking.JPEG"
-import japan from "../assets/japan.JPEG"
 
 const About = () => {
   return (
     <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
+
+        <div class="chat chat-start p-4">
+            <div class="chat-bubble">
+                omg Bella's so well rounded
+            </div>
+        </div>
         
         {/**first section */}
         <li>

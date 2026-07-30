@@ -27,7 +27,7 @@
   font-size: 0.8rem;
   font-weight: 600;
   letter-spacing: 1px;
-  color: #4b9c43;
+  color: #2038ae;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -37,7 +37,7 @@
 .status-tag .line {
   width: 30px;
   height: 2px;
-  background-color: #4b9c43;
+  background-color: #2038ae;
 }
 
 .headshot-content h1 {
@@ -49,7 +49,7 @@
 }
 
 .headshot-content h1 span {
-  border-bottom: 4px solid #4b9c43;
+  border-bottom: 4px solid #2038ae;
   display: inline-block;
   line-height: 0.9;
 }
@@ -61,6 +61,22 @@
   line-height: 1.6;
 }
 
+.about-content h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 4.5rem;
+  line-height: 1.1;
+  margin: 0 0 1rem 0;
+  color: #ffffff;
+}
+
+.about-subtitle {
+  font-size: 1.rem;
+  color: #ffffff;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+
 .badges {
   display: flex;
   flex-wrap: wrap;
@@ -70,7 +86,16 @@
 
 .badge {
   padding: 6px 14px;
-  border: 1px solid #4b9c43;
+  border: 1px solid #2038ae;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  color: #555;
+  background: white;
+}
+
+.badge-large {
+  padding: 5px 10px;
+  border: 1px solid #2038ae;
   border-radius: 20px;
   font-size: 0.85rem;
   color: #555;
@@ -92,7 +117,7 @@
   display: flex;
   align-items: center;
   gap: 8px;
-  border: 1px solid #4b9c43;
+  border: 1px solid #2038ae;
   background: white;
   color: #333;
   transition: all 0.2s;
@@ -104,13 +129,17 @@
 }
 
 .btn.primary {
-  background-color: #4b9c43;
+  background-color: #2038ae;
   color: white;
   border: none;
 }
 
 .btn.primary:hover {
-  background-color: #367a30;
+  background-color: #2d4ef3;
+}
+
+.btn.secondary:hover {
+  background-color: #2d4ef3;
 }
 
 .headshot-image-wrapper {

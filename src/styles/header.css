@@ -1,5 +1,3 @@
-
-
 .logo-text {
   font-family: 'Playfair Display', serif; 
   font-size: 1.5rem;
@@ -23,7 +21,7 @@
 
 .nav-links a.active, 
 .nav-links a:hover {
-  color: #4b9c43; 
+  color: #2038ae; 
 }
 
 .header-actions {
@@ -44,7 +42,7 @@
 }
 
 .btn-lets-talk {
-  background-color: #4b9c43;
+  background-color: #2038ae;
   color: white;
   text-decoration: none;
   padding: 10px 24px;
@@ -52,8 +50,4 @@
   font-weight: 600;
   font-size: 0.95rem;
   transition: background-color 0.2s ease;
-}
-
-.btn-lets-talk:hover {
-  background-color: #367a30;
 }
