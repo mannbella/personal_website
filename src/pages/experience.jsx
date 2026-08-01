@@ -13,7 +13,7 @@ const Experience = () => {
                             <div className="mockup-code bg-white text-black w-[400px] border border-gray-200 hover:bg-[#2038ae] hover:text-white shadow-xl">
                                 <pre data-prefix="$"><code>Meta</code></pre>
                                 <pre data-prefix="$"><code>June 2026 - Present</code></pre>
-                                <pre data-prefix="$" className="bg-[#7f93f7]"><code>Generative AI QA Engineer</code></pre>
+                                <pre data-prefix="$" className="bg-[#7f93f7]"><code>Machine Learning QA Engineer</code></pre>
                                 <pre data-prefix=">"><code>Spearheaded testing for AI models.</code></pre>
                                 <pre data-prefix=">"><code>Evaluating prompt architecture for games.</code></pre>
                                 <pre data-prefix=">"><code>Validated AI accuracy and logic.</code></pre>
@@ -57,10 +57,10 @@ const Experience = () => {
             </div>
 
             
-            <div className="font-sans-serif timeline-end md:text-end pt-4 pl-40 text-[#2038ae]">
+            <div className="font-sans-serif timeline-end md:text-end pt-4 pl-8 text-[#2038ae]">
                 <h1 className="text-4xl">currently a</h1>
                 <span className="hover-woosh cursor-default">
-                    <h1 className="text-7xl italic animate-woosh woosh-delay-2">Generative AI <br />QA Engineer</h1>
+                    <h1 className="text-7xl italic animate-woosh woosh-delay-2">Machine Learning<br />QA Engineer</h1>
                 </span>
                 <h1 className="text-4xl">at Meta</h1>
             </div>
@@ -77,7 +77,7 @@ const Experience = () => {
                     
                     <div className="flex flex-col gap-4 w-full max-w-sm text-left pl-12">
                         <div className="hover-3d">
-                        <div className="mockup-code bg-white text-black w-[400px>] border border-gray-200 hover:bg-[#2038ae] hover:text-white shadow-xl">
+                        <div className="mockup-code bg-white text-black w-[400px] border border-gray-200 hover:bg-[#2038ae] hover:text-white shadow-xl">
                             <pre data-prefix="$"><code>Alpha Omicron Pi - <strong>Project</strong></code></pre>
                             <pre data-prefix="$"><code>December 2024 - December 2025</code></pre>
                             <pre data-prefix="$" className="bg-[#7f93f7]"><code>Data Analyst</code></pre>
