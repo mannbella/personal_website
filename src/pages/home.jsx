@@ -11,7 +11,7 @@ function Home() {
           <div className="headshot-content">
             <div className="status-tag">
               <span className="line"></span>
-              PORTLAND, OR • OPEN TO OPPORTUNITIES
+              HOUSTON, TX • OPEN TO OPPORTUNITIES
             </div>
 
             <h1>
@@ -25,7 +25,7 @@ function Home() {
               <span className="badge">Meta • QA Engineer</span>
               <span className="badge">NASA Langley • Software Development Intern</span>
               <span className="badge">Trimble • SDET Intern</span>
-              <span className="badge">SHRB Lab • Lead Software Developer</span>
+              <span className="badge">SHRB Lab • Systems Data Engineer</span>
               <span className="badge">Oregon State University • B.S. CS 2026</span>
             </div>
 
@@ -58,17 +58,12 @@ function Home() {
           <div className="headshot-image-wrapper">
             <img src={profilePic} alt="Isabella Mann" className="profile-img"/>
 
-            <div className="floating-card card-top-left">
+            <div className="floating-card card-top-left translate-x-10">
               <span>Currently</span> 
-              <strong>QA Engineer</strong> @ <strong>Meta</strong>
+              <strong>Open</strong> to <strong>Work</strong>
             </div>
 
-            <div className="floating-card card-right translate-x-28">
-              <span>LLM Workflows</span> 
-              <strong>Automated</strong> Validation
-            </div>
-
-            <div className="floating-card card-bottom-center">
+            <div className="floating-card card-bottom-center translate-x-30 -translate-y-4">
               <span>Experience</span>
               <strong>3+</strong> Years in Industry
             </div>
@@ -81,7 +76,7 @@ function Home() {
             <div className="w-full bg-[#2038ae] text-white py-16 px-4 flex flex-col items-center">
               <h1>About Me</h1>
               <p className="about-subtitle px-32">
-                I'm a software and QA Automation Engineer with a B.S. in Computer Science, 
+                I'm a Software and QA Automation Engineer with a B.S. in Computer Science, 
                 specializing in automated data pipelines, generative AI validation, 
                 and complex hardware-software integrations. <br />
                 <br />
@@ -93,7 +88,7 @@ function Home() {
                 to ensure seamless backend integration and continuous software delivery. <br />
                 <br />
                 Beyond quality assurance, I am deeply passionate about creating and utilizing technology that has real, community-focused impacts.
-                My work as Lead Software Developer at the Sustainable, Healthy, and Resilient Buildings Lab involved managing real-time telemetry and data
+                My work as a Systems Data Engineer at the Sustainable, Healthy, and Resilient Buildings Lab involved managing real-time telemetry and data
                 pipelines for networks of environmental sensors. Additionally, my experience engineering the UI/UX for Vibrosonics, an open-source wearable device
                 that translates sound into tactile vibrations for the hard-of-hearing community, solidified my commitment to functional accessibility and inclusive design. <br />
                 <br />

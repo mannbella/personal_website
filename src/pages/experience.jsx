@@ -10,10 +10,10 @@ const Experience = () => {
                 <div className="timeline-start pt-4 pr-2 md:pr-8 xl:pr-36 w-full flex justify-end">
                     <div className="flex flex-col gap-4 items-end pr-0 w-full">
                         <div className="hover-3d w-full flex justify-end">
-                            <div className="mockup-code bg-white text-black w-[85vw] max-w-[320px] xl:max-w-[400px] border border-gray-200 hover:bg-[#2038ae] hover:text-white shadow-xl text-xs xl:text-base">
+                            <div className="mockup-code bg-white text-black w-[85vw] max-w-[320px] xl:max-w-[420px] border border-gray-200 hover:bg-[#2038ae] hover:text-white shadow-xl text-xs xl:text-base">
                                 <pre data-prefix="$"><code>Meta</code></pre>
-                                <pre data-prefix="$"><code>June 2026 - Present</code></pre>
-                                <pre data-prefix="$" className="bg-[#7f93f7]"><code>Machine Learning QA Engineer</code></pre>
+                                <pre data-prefix="$"><code>June 2026 - September 2026</code></pre>
+                                <pre data-prefix="$" className="bg-[#7f93f7]"><code>Quality Assurance Engineer</code></pre>
                                 <pre data-prefix=">"><code>Spearheaded testing for AI models.</code></pre>
                                 <pre data-prefix=">"><code>Evaluating prompt architecture for games.</code></pre>
                                 <pre data-prefix=">"><code>Validated AI accuracy and logic.</code></pre>
@@ -21,7 +21,7 @@ const Experience = () => {
                         </div>
 
                         <div className="hover-3d w-full flex justify-end">
-                            <div className="mockup-code bg-white text-black w-[85vw] max-w-[320px] xl:max-w-[400px] border border-gray-200 hover:bg-[#2038ae] hover:text-white shadow-xl text-xs xl:text-base">
+                            <div className="mockup-code bg-white text-black w-[85vw] max-w-[320px] xl:max-w-[420px] border border-gray-200 hover:bg-[#2038ae] hover:text-white shadow-xl text-xs xl:text-base">
                                     <pre data-prefix="$"><code>Vibrosonics - <strong>Project</strong></code></pre>
                                     <pre data-prefix="$"><code>September 2025 - June 2026</code></pre>
                                     <pre data-prefix="$" className="bg-[#7f93f7] "><code>UI/UX Developer</code></pre>
@@ -43,7 +43,7 @@ const Experience = () => {
                         </div>
 
                         <div className="hover-3d w-full flex justify-end">
-                            <div className="mockup-code bg-white text-black w-[85vw] max-w-[320px] xl:max-w-[400px] border border-gray-200 hover:bg-[#2038ae] hover:text-white shadow-xl text-xs xl:text-base">
+                            <div className="mockup-code bg-white text-black w-[85vw] max-w-[320px] xl:max-w-[420px] border border-gray-200 hover:bg-[#2038ae] hover:text-white shadow-xl text-xs xl:text-base">
                                 <pre data-prefix="$"><code>Trimble</code></pre>
                                 <pre data-prefix="$"><code>June 2025 - September 2025</code></pre>
                                 <pre data-prefix="$" className="bg-[#7f93f7]"><code>Software Testing Engineer Intern</code></pre>
@@ -55,9 +55,9 @@ const Experience = () => {
                 </div>
 
                 <div className="font-sans-serif timeline-end text-left pt-4 pl-4 md:pl-8 xl:pl-36 text-[#2038ae] w-full">
-                    <h1 className="text-xl xl:text-4xl">currently a</h1>
+                    <h1 className="text-xl xl:text-4xl">previously</h1>
                     <span className="hover-woosh cursor-default block">
-                        <h1 className="text-3xl xl:text-7xl italic animate-woosh woosh-delay-2 leading-tight">Machine Learning<br />QA Engineer</h1>
+                        <h1 className="text-3xl xl:text-7xl italic animate-woosh woosh-delay-2 leading-tight">Quality Assurance<br /> Engineer</h1>
                     </span>
                     <h1 className="text-xl xl:text-4xl">at Meta</h1>
                 </div>
@@ -70,7 +70,7 @@ const Experience = () => {
                 <div className="timeline-end mb-10 text-left md:text-start pt-4 pl-4 md:pl-8 xl:pl-36 w-full flex justify-start">
                     <div className="flex flex-col gap-4 items-start pl-0 w-full">
                         <div className="hover-3d w-full flex justify-start">
-                            <div className="mockup-code bg-white text-black w-[85vw] max-w-[320px] xl:max-w-[400px] border border-gray-200 hover:bg-[#2038ae] hover:text-white shadow-xl text-xs xl:text-base">
+                            <div className="mockup-code bg-white text-black w-[85vw] max-w-[320px] xl:max-w-[440px] border border-gray-200 hover:bg-[#2038ae] hover:text-white shadow-xl text-xs xl:text-base">
                                 <pre data-prefix="$"><code>Alpha Omicron Pi - <strong>Project</strong></code></pre>
                                 <pre data-prefix="$"><code>December 2024 - December 2025</code></pre>
                                 <pre data-prefix="$" className="bg-[#7f93f7]"><code>Data Analyst</code></pre>
@@ -92,10 +92,10 @@ const Experience = () => {
                         </div>
 
                         <div className="hover-3d w-full flex justify-start">
-                            <div className="mockup-code bg-white text-black w-[85vw] max-w-[320px] xl:max-w-[400px] border border-gray-200 hover:bg-[#2038ae] hover:text-white shadow-xl text-xs xl:text-base">
+                            <div className="mockup-code bg-white text-black w-[85vw] max-w-[320px] xl:max-w-[440px] border border-gray-200 hover:bg-[#2038ae] hover:text-white shadow-xl text-xs xl:text-base">
                                 <pre data-prefix="$"><code>SHRB Lab</code></pre>
                                 <pre data-prefix="$"><code>February 2024 - June 2026</code></pre>
-                                <pre data-prefix="$" className="bg-[#7f93f7]"><code>Lead Software Developer</code></pre>
+                                <pre data-prefix="$" className="bg-[#7f93f7]"><code>Systems Data Engineer</code></pre>
                                 <pre data-prefix=">" className="whitespace-normal break-words px-4"><code>Automated data ingestion for 50+ sensors.</code></pre>
                                 <pre data-prefix=">" className="whitespace-normal break-words px-4"><code>Created high-volume visual analytics.</code></pre>
                             </div>
@@ -119,7 +119,7 @@ const Experience = () => {
                 <div className="timeline-start mb-10 pt-4 pr-4 md:pr-8 xl:pr-36 w-full flex justify-end">
                     <div className="flex flex-col gap-4 items-end pr-0 w-full">
                         <div className="hover-3d w-full flex justify-end">
-                            <div className="mockup-code bg-white text-black w-[85vw] max-w-[320px] xl:max-w-[400px] border border-gray-200 hover:bg-[#2038ae] hover:text-white shadow-xl text-xs xl:text-base">
+                            <div className="mockup-code bg-white text-black w-[85vw] max-w-[320px] xl:max-w-[420px] border border-gray-200 hover:bg-[#2038ae] hover:text-white shadow-xl text-xs xl:text-base">
                                 <pre data-prefix="$"><code>NASA</code></pre>
                                 <pre data-prefix="$"><code>June 2023 - August 2023</code></pre>
                                 <pre data-prefix="$" className="bg-[#7f93f7]"><code>Software Development Intern</code></pre>
@@ -129,7 +129,7 @@ const Experience = () => {
                         </div>
 
                         <div className="hover-3d w-full flex justify-end">
-                            <div className="mockup-code bg-white text-black w-[85vw] max-w-[320px] xl:max-w-[400px] border border-gray-200 hover:bg-[#2038ae] hover:text-white shadow-xl text-xs xl:text-base">
+                            <div className="mockup-code bg-white text-black w-[85vw] max-w-[320px] xl:max-w-[420px] border border-gray-200 hover:bg-[#2038ae] hover:text-white shadow-xl text-xs xl:text-base">
                                 <pre data-prefix="$"><code>URSA</code></pre>
                                 <pre data-prefix="$"><code>February 2023 - June 2023</code></pre>
                                 <pre data-prefix="$" className="bg-[#7f93f7]"><code>Undergraduate Researcher</code></pre>
@@ -156,7 +156,7 @@ const Experience = () => {
                 <div className="timeline-end mb-10 text-left md:text-start pt-4 pl-4 md:pl-8 xl:pl-36 w-full flex justify-start">
                     <div className="flex flex-col gap-4 items-start pl-0 w-full">
                         <div className="hover-3d w-full flex justify-start">
-                            <div className="mockup-code bg-white text-black w-[85vw] max-w-[320px] xl:max-w-[400px] border border-gray-200 hover:bg-[#2038ae] hover:text-white shadow-xl text-xs xl:text-base">
+                            <div className="mockup-code bg-white text-black w-[85vw] max-w-[320px] xl:max-w-[440px] border border-gray-200 hover:bg-[#2038ae] hover:text-white shadow-xl text-xs xl:text-base">
                                 <pre data-prefix="$"><code>Oregon State University</code></pre>
                                 <pre data-prefix="$"><code>September 2022 - June 2026</code></pre>
                                 <pre data-prefix="$" className="bg-[#7f93f7]"><code>Bachelor's of Science in Computer Science</code></pre>
@@ -172,7 +172,7 @@ const Experience = () => {
                     <span className="hover-woosh cursor-default block">
                         <h1 className="text-3xl xl:text-7xl italic animate-woosh woosh-delay-2 leading-tight">Oregon State<br/>University</h1>
                     </span>
-                    <h1 className="text-xl xl:text-4xl">in june 2026</h1>
+                    <h1 className="text-xl xl:text-4xl">in June 2026</h1>
                 </div>
                 <hr />
             </li>
