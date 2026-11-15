@@ -5,7 +5,35 @@ const Experience = () => {
     <div className="w-full overflow-x-hidden px-2">
         <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical w-full">
             
-            {/**first section */}
+            {/**first section 
+            <li>
+                <hr />
+                <div className="timeline-end mb-10 text-left md:text-start pt-4 pl-4 md:pl-8 xl:pl-36 w-full flex justify-start">
+                    <div className="flex flex-col gap-4 items-start pl-0 w-full">
+                        <div className="hover-3d w-full flex justify-start">
+                            <div className="mockup-code bg-white text-black w-[85vw] max-w-[320px] xl:max-w-[440px] border border-gray-200 hover:bg-[#2038ae] hover:text-white shadow-xl text-xs xl:text-base">
+                                <pre data-prefix="$"><code>Shield AI</code></pre>
+                                <pre data-prefix="$"><code>November 2026 - Present</code></pre>
+                                <pre data-prefix="$" className="bg-[#7f93f7]"><code>Engineer I</code></pre>
+                                <pre data-prefix=">" className="whitespace-normal break-words"><code>something here</code></pre>
+                                <pre data-prefix=">" className="whitespace-normal break-words"><code>something else here</code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="timeline-start text-left md:text-right pt-4 pr-4 md:pr-8 xl:pr-36 text-[#2038ae] w-full">
+                    <h1 className="text-xl xl:text-4xl">currently</h1>
+                    <span className="hover-woosh cursor-default block">
+                        <h1 className="text-4xl xl:text-7xl italic animate-woosh woosh-delay-2 leading-tight">Engineer I</h1>
+                    </span>
+                    <h1 className="text-xl xl:text-4xl">at Shield AI</h1>
+                </div>
+                <hr />
+            </li>
+            */}
+
+            {/**second section */}
             <li>
                 <div className="timeline-start pt-4 pr-2 md:pr-8 xl:pr-36 w-full flex justify-end">
                     <div className="flex flex-col gap-4 items-end pr-0 w-full">
@@ -64,7 +92,7 @@ const Experience = () => {
                 <hr />
             </li>
 
-            {/**second section */}
+            {/**third section */}
             <li>
                 <hr />
                 <div className="timeline-end mb-10 text-left md:text-start pt-4 pl-4 md:pl-8 xl:pl-36 w-full flex justify-start">
@@ -86,8 +114,8 @@ const Experience = () => {
                                         </a>
                                     </code>
                                 </pre>
-                                <pre data-prefix=">" className="whitespace-normal break-words px-4"><code>Engineered Python processing pipelines.</code></pre>
-                                <pre data-prefix=">" className="whitespace-normal break-words px-4"><code>Converted data into strategic insights.</code></pre>
+                                <pre data-prefix=">" className="whitespace-normal break-words"><code>Engineered Python processing pipelines.</code></pre>
+                                <pre data-prefix=">" className="whitespace-normal break-words"><code>Converted data into strategic insights.</code></pre>
                             </div>
                         </div>
 
@@ -96,8 +124,8 @@ const Experience = () => {
                                 <pre data-prefix="$"><code>SHRB Lab</code></pre>
                                 <pre data-prefix="$"><code>February 2024 - June 2026</code></pre>
                                 <pre data-prefix="$" className="bg-[#7f93f7]"><code>Systems Data Engineer</code></pre>
-                                <pre data-prefix=">" className="whitespace-normal break-words px-4"><code>Automated data ingestion for 50+ sensors.</code></pre>
-                                <pre data-prefix=">" className="whitespace-normal break-words px-4"><code>Created high-volume visual analytics.</code></pre>
+                                <pre data-prefix=">" className="whitespace-normal break-words"><code>Automated data ingestion for 50+ sensors.</code></pre>
+                                <pre data-prefix=">" className="whitespace-normal break-words"><code>Created high-volume visual analytics.</code></pre>
                             </div>
                         </div>
                     </div>
@@ -113,7 +141,7 @@ const Experience = () => {
                 <hr />
             </li>
 
-            {/**third section */}
+            {/**fourth section */}
             <li>
                 <hr />
                 <div className="timeline-start mb-10 pt-4 pr-4 md:pr-8 xl:pr-36 w-full flex justify-end">
@@ -150,7 +178,7 @@ const Experience = () => {
                 <hr />
             </li>
 
-            {/**fourth section */}
+            {/**fifth section */}
             <li>
                 <hr />
                 <div className="timeline-end mb-10 text-left md:text-start pt-4 pl-4 md:pl-8 xl:pl-36 w-full flex justify-start">
